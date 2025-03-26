@@ -2,18 +2,7 @@ import random
 import string
 
 def generador_pintudo(longitud=12, mayusculas=True, numeros=True, especiales=True):
-    """
-    Genera una contraseña pintuda y segura.
-    
-    Args:
-        longitud (int): Longitud de la contraseña (default: 12).
-        mayusculas (bool): Incluir mayúsculas (default: True).
-        numeros (bool): Incluir números (default: True).
-        especiales (bool): Incluir caracteres especiales (default: True).
-    
-    Returns:
-        str: La contraseña pintuda generada.
-    """
+
     caracteres = string.ascii_lowercase
     if mayusculas:
         caracteres += string.ascii_uppercase
